@@ -47,14 +47,14 @@ nav{
     margin-bottom: 20px;
     margin-right: 50px;
 }
-a{
+.hd{
     position: relative;
     cursor: pointer;
     transition: color 0.25s;
     font-size: 30px;
     padding: 0.5rem 1rem;
 }
-a::after{
+.hd::after{
     position:absolute;
     content: "";
     inset: 0;
@@ -64,10 +64,10 @@ a::after{
     transition: 0.45s;
     border-radius: 10px; 
 }
-a:hover{
+.hd:hover{
     color: black;
 }
-a:hover::after{
+.hd:hover::after{
     scale: 1 1; 
  }
 
