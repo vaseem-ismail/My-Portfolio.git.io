@@ -15,10 +15,10 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("/Beauti1.jpg");}
-    30%{background-image: url("/Beauti2.jpg");}
-    60%{background-image: url("/Beauti3.jpg");}
-    100%{background-image: url("/Beauti4.jpg");}
+    0%{background-image: url("/./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page2{
     height: 100vh;
@@ -28,10 +28,10 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("/Beauti1.jpg");}
-    30%{background-image: url("/Beauti2.jpg");}
-    60%{background-image: url("/Beauti3.jpg");}
-    100%{background-image: url("/Beauti4.jpg");}
+    0%{background-image: url("/./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page3{
     height: 100vh;
@@ -41,10 +41,10 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("/Beauti1.jpg");}
-    30%{background-image: url("/Beauti2.jpg");}
-    60%{background-image: url("/Beauti3.jpg");}
-    100%{background-image: url("/Beauti4.jpg");}
+    0%{background-image: url("/./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page4{
     height: 100vh;
@@ -54,10 +54,10 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("/Beauti1.jpg");}
-    30%{background-image: url("/Beauti2.jpg");}
-    60%{background-image: url("/Beauti3.jpg");}
-    100%{background-image: url("/Beauti4.jpg");}
+    0%{background-image: url("/./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 
 
