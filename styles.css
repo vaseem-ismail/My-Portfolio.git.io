@@ -15,9 +15,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    100%{background-image: url("./assets/Beauti1.jpg");}
-    100%{background-image: url("./assets/Beauti2.jpg");}
-    100%{background-image: url("./assets/Beauti3.jpg");}
+    0%{background-image: url("./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page2{
@@ -28,9 +28,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    100%{background-image: url("./assets/Beauti1.jpg");}
-    100%{background-image: url("./assets/Beauti2.jpg");}
-    100%{background-image: url("./assets/Beauti3.jpg");}
+    0%{background-image: url("./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page3{
@@ -41,9 +41,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    100%{background-image: url("./assets/Beauti1.jpg");}
-    100%{background-image: url("./assets/Beauti2.jpg");}
-    100%{background-image: url("./assets/Beauti3.jpg");}
+    0%{background-image: url("./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page4{
@@ -54,9 +54,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    100%{background-image: url("./assets/Beauti1.jpg");}
-    100%{background-image: url("./assets/Beauti2.jpg");}
-    100%{background-image: url("./assets/Beauti3.jpg");}
+    0%{background-image: url("./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 
@@ -112,11 +112,11 @@ a:hover::after{
     display: inline-block;
 }
 .hcon p{
+    font-weight: 700;
     letter-spacing: 45px;
     font-size: 40px;
     overflow: hidden;
     font-size: 3.6rem;
-    font-weight: 800px;
     border-right: .15em solid red;
     white-space: nowrap;
     animation: typing 4s steps(40,end) infinite;
