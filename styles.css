@@ -28,9 +28,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti1.jpg");}
+    100%{background-image: url("./assets/Beauti2.jpg");}
+    100%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page3{
@@ -41,9 +41,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti1.jpg");}
+    100%{background-image: url("./assets/Beauti2.jpg");}
+    100%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page4{
@@ -54,9 +54,9 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti1.jpg");}
+    100%{background-image: url("./assets/Beauti2.jpg");}
+    100%{background-image: url("./assets/Beauti3.jpg");}
     100%{background-image: url("./assets/Beauti4.jpg");}
 }
 
