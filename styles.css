@@ -6,58 +6,33 @@
     background-color: rgb(33, 33, 33);
     width: 1850px;
     overflow-x: hidden;
+    background: fixed;
+    background-size: 100% 100% ;
+    box-shadow: 20px 20px 10px grey;
+    animation: slider 10s linear infinite;
+}
+@keyframes slider{
+    0%{background-image: url("./assets/Beauti1.jpg");}
+    30%{background-image: url("./assets/Beauti2.jpg");}
+    60%{background-image: url("./assets/Beauti3.jpg");}
+    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page1{
     height: 100vh;
     text-align: center;
-    background-size: 100% 100% ;
-    box-shadow: 20px 20px 10px grey;
-    animation: slider 10s linear infinite;
 }
-@keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
-    100%{background-image: url("./assets/Beauti4.jpg");}
-}
+
 .page2{
     height: 100vh;
     text-align: center;
-    background-size: 100% 100% ;
-    box-shadow: 20px 20px 10px grey;
-    animation: slider 10s linear infinite;
-}
-@keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
-    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page3{
     height: 100vh;
     text-align: center;
-    background-size: 100% 100% ;
-    box-shadow: 20px 20px 10px grey;
-    animation: slider 10s linear infinite;
-}
-@keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
-    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 .page4{
     height: 100vh;
     text-align: center;
-    background-size: 100% 100% ;
-    box-shadow: 20px 20px 10px grey;
-    animation: slider 10s linear infinite;
-}
-@keyframes slider{
-    0%{background-image: url("./assets/Beauti1.jpg");}
-    30%{background-image: url("./assets/Beauti2.jpg");}
-    60%{background-image: url("./assets/Beauti3.jpg");}
-    100%{background-image: url("./assets/Beauti4.jpg");}
 }
 
 
