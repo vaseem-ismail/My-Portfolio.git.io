@@ -8,7 +8,7 @@
     overflow-x: hidden;
     background: fixed;
     background-size: 100% 100% ;
-    box-shadow: 20px 20px 10px grey;
+    /* box-shadow: 20px 20px 10px grey; */
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
@@ -21,7 +21,6 @@
     height: 100vh;
     text-align: center;
 }
-
 .page2{
     height: 100vh;
     text-align: center;
@@ -143,21 +142,64 @@ nav{
 /* PAGE2 */
 .about{
     position: absolute;
-    top: 25vh;
-    left: 38vh;
-    font-size: 70px;
+    top: 135vh;
+    left: 25vh;
+    font-size: 100px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
 }
-.about:hover{
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
+/* .about:hover{
     box-shadow: rgb(255,255,255) 2px 2px 15px;
-}
+} */
 .all{
     position: absolute;
-    top: 35vh;
-    left: 38vh;
+    top: 155vh;
+    left: 60vh;
     font-size: 30px;
+    background-color: transparent;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+
+
+    
 }
-.all:hover{
-    box-shadow: rgb(255, 255, 255) 2px 2px 15px;
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
 }
 .Iam1{
     margin-right: 115px;
@@ -165,32 +207,66 @@ nav{
 .Iam3{
     margin-right: 40px;
 }
-
-/* CARD */
-.card{
-    width:100vh;
-    padding: 10px;
+.abt{
+    line-height: 80px;
 }
 
 
 /* PAGE3 */
 .ps{
     position: absolute;
-    top: 30vh;
-    left: 38vh;
-    font-size: 70px;
+    top: 230vh;
+    left: 45vh;
+    font-size: 100px;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
 }
-.ps:hover{
-    box-shadow: rgb(255, 255, 255) 2px 2px 15px;
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
 }
 .skill{
     position: absolute;
-    top: 40vh;
-    left: 38vh;
+    top: 250vh;
+    left: 65vh;
     font-size: 30px;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
 }
-.skill:hover{
-    box-shadow: rgb(255, 255, 255) 2px 2px 15px;
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
+.pscont{
+    line-height: 80px;
 }
 .ps-cont1{
     margin-right: 110px;
@@ -202,43 +278,86 @@ nav{
     margin-left: 30px;
 }
 
+
+
+
 /* PAGE4 */
+.contacth{
+    font-size: 100px;
+    position: absolute;
+    top: 328vh;
+    left: 45vh;
+    color: #0e3742;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
 .contdet{
     position: absolute;
-    top: 33vh;
-    left: 38vh;
+    top: 355vh;
+    left: 25vh;
+    color: #0e3742;
+    -webkit-box-reflect: below 1cpx linear-gradient(transparent,#0004);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-.contdet:hover{
-    box-shadow: rgb(255, 255, 255) 2px 2px 15px;
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
 }
-.contacth{
-    font-size: 70px;
-    position: absolute;
-    top: 28vh;
-    left: 38vh;
+.gmail{
+        margin-left: 37px;
 }
-.contacth:hover{
-    box-shadow: rgb(255, 255, 255) 2px 2px 15px;
+.linkedin{
+        margin-left: 37px;
 }
-.card-text{
-    font-size: 30px;
+.wp{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.gp{
+    font-size: 50px;
+    margin-top: 40px;
+}
+.lp{
+    font-size: 50px;
+    margin-top: 40px;
 }
 
-/* ODD */
-.cont1{
-    margin-left: 75px;
-}
-.cont3{
-    margin-left: 70px;
-}
-.cont5{
-    margin-left: 30px;
-}
 
-/* EVEN */
-.cont2{
-    margin-right: 190px;
-}
-.cont4{
-    margin-right: 70px;
+
+/* RESPONSIVE */
+@media screen and(max-width:420px){
+    
 }
