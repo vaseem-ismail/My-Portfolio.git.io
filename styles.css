@@ -75,9 +75,7 @@ nav{
     top: 30vh;
     left: 110vh;
     border-radius: 30px;
-}
-.img-fluid:hover{
-    box-shadow: rgb(233,173,53) 2px 2px 15px;
+    filter: drop-shadow(2px 2px 20px red);
 }
 .hcon{
     position: absolute;
@@ -91,9 +89,9 @@ nav{
     font-size: 40px;
     overflow: hidden;
     font-size: 3.6rem;
-    border-right: .15em solid red;
     white-space: nowrap;
     animation: typing 4s steps(40,end) infinite;
+    filter: drop-shadow(2px 2px 20px red);
 }
 @keyframes typing{
     from{
@@ -109,9 +107,9 @@ nav{
     overflow: hidden;
     font-size: 3.6rem;
     font-weight: 800px;
-    border-right: .15em solid whitesmoke;
     white-space: nowrap;
     animation: typing 4s steps(40,end) infinite;
+    filter: drop-shadow(2px 2px 20px white);
 }
 @keyframes typing{
     from{
@@ -131,6 +129,7 @@ nav{
     color: white;
     border: 2px solid white;
     border-radius: 30px;
+    filter: drop-shadow(2px 2px 20px blue);
 }
 .button:hover{
     box-shadow: rgb(233,173,53) 2px 2px 15px;
@@ -148,10 +147,7 @@ nav{
     background-color: transparent;
     backdrop-filter: blur(10px);
     color: #0e3742;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.001s linear infinite;
+    animation: animate 1s linear infinite;
 }
 .all{
     position: absolute;
@@ -160,10 +156,7 @@ nav{
     font-size: 30px;
     background-color: transparent;
     color: #0e3742;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.1s linear infinite;
+    animation: animate 1s linear infinite;
 
 
     
@@ -186,35 +179,30 @@ nav{
     left: 45vh;
     font-size: 100px;
     color: #0e3742;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.1s linear infinite;
+    animation: animate 1s linear infinite;
 }
 .skill{
     position: absolute;
     top: 250vh;
     left: 65vh;
     font-size: 30px;
-    color: #0e3742;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.1s linear infinite;
+    color: #16cdff;
+    animation: animate 1s linear infinite;
 }
+
 @keyframes animate
 {
-    0%,12%,18%,20%,35%,50.1%,60%,65.1%,72%,80%,90.1%{
+    0%{
         color: #0e3742;
         text-shadow: none;
     }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
+    100%{
+        color: #ffffff;
+        text-shadow: 0 0 10px #fe0000,
+        0 0 20px #fe0000,
+        0 0 40px #fe0000,
+        0 0 80px #fe0000,
+        0 0 160px #fe0000;
     }
 }
 .pscont{
@@ -240,10 +228,7 @@ nav{
     top: 328vh;
     left: 45vh;
     color: #0e3742;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.1s linear infinite;
+    animation: animate 1s linear infinite;
 }
 .contdet{
     position: absolute;
@@ -251,18 +236,19 @@ nav{
     left: 25vh;
     color: #0e3742;
     -webkit-box-reflect: below 1cpx linear-gradient(transparent,#0004);
-    line-height: 0.70em;
-    outline: none;
-    animation: animate 0.1s linear infinite;
+    animation: animate 1s linear infinite;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+}
+.whatsapp{
+    filter: drop-shadow(2px 2px 20px red);
 }
 .gmail{
         margin-left: 37px;
+        filter: drop-shadow(2px 2px 20px red);
 }
 .linkedin{
         margin-left: 37px;
+        filter: drop-shadow(2px 2px 20px red);
 }
 .wp{
     font-size: 50px;
@@ -275,11 +261,4 @@ nav{
 .lp{
     font-size: 50px;
     margin-top: 40px;
-}
-
-
-
-/* RESPONSIVE */
-@media screen and(max-width:420px){
-    
 }
