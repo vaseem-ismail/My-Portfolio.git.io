@@ -151,26 +151,8 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
+    animation: animate 0.001s linear infinite;
 }
-@keyframes animate
-{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
-    }
-}
-/* .about:hover{
-    box-shadow: rgb(255,255,255) 2px 2px 15px;
-} */
 .all{
     position: absolute;
     top: 155vh;
@@ -181,25 +163,10 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
+    animation: animate 0.1s linear infinite;
 
 
     
-}
-@keyframes animate
-{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
-    }
 }
 .Iam1{
     margin-right: 115px;
@@ -222,22 +189,7 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
-}
-@keyframes animate
-{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
-    }
+    animation: animate 0.1s linear infinite;
 }
 .skill{
     position: absolute;
@@ -248,11 +200,11 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
+    animation: animate 0.1s linear infinite;
 }
 @keyframes animate
 {
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
+    0%,12%,18%,20%,35%,50.1%,60%,65.1%,72%,80%,90.1%{
         color: #0e3742;
         text-shadow: none;
     }
@@ -291,22 +243,7 @@ nav{
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
-}
-@keyframes animate
-{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
-    }
+    animation: animate 0.1s linear infinite;
 }
 .contdet{
     position: absolute;
@@ -316,25 +253,10 @@ nav{
     -webkit-box-reflect: below 1cpx linear-gradient(transparent,#0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 5s linear infinite;
+    animation: animate 0.1s linear infinite;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-@keyframes animate
-{
-    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: #fff;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4;
-    }
 }
 .gmail{
         margin-left: 37px;
