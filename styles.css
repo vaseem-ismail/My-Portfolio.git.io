@@ -8,7 +8,6 @@
     overflow-x: hidden;
     background: fixed;
     background-size: 100% 100% ;
-    /* box-shadow: 20px 20px 10px grey; */
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
@@ -148,6 +147,7 @@ nav{
     backdrop-filter: blur(10px);
     color: #0e3742;
     animation: animate 1s linear infinite;
+    box-shadow: white 2px 2px 15px;
 }
 .all{
     position: absolute;
@@ -157,9 +157,7 @@ nav{
     background-color: transparent;
     color: #0e3742;
     animation: animate 1s linear infinite;
-
-
-    
+    box-shadow: white 2px 2px 15px; 
 }
 .Iam1{
     margin-right: 115px;
