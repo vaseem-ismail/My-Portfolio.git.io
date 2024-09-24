@@ -11,10 +11,10 @@
     animation: slider 10s linear infinite;
 }
 @keyframes slider{
-    0%{background-image: url("./assets/dodge.jpg");}
-    30%{background-image: url("./assets/Dodge\ srt.jpg");}
-    60%{background-image: url("./assets/dodgesrt.webp");}
-    100%{background-image: url("./assets/hellcat\ wp.jpg");}
+    0%{background-image: url("./assets/Hellcat1.jpg");}
+    30%{background-image: url("./assets/Hellcat2.jpg");}
+    60%{background-image: url("./assets/Hellcat3.jpg");}
+    100%{background-image: url("./assets/Hellcat5.jpg");}
 }
 .page1{
     height: 100vh;
