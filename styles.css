@@ -143,19 +143,17 @@ nav{
     top: 127vh;
     left: 25vh;
     font-size: 100px;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    color: #0e3742;
-    animation: animate 1s linear infinite;
+    color: aquamarine;
+    filter: drop-shadow(2px 2px 20px red);
+    
 }
 .all{
     position: absolute;
     top: 145vh;
     left: 20vh;
     font-size: 30px;
-    background-color: transparent;
-    color: #0e3742;
-    animation: animate 1s linear infinite;
+    color: whitesmoke;
+    filter: drop-shadow(2px 2px 20px red);
 }
 .Iam1{
     margin-right: 115px;
@@ -174,32 +172,16 @@ nav{
     top: 230vh;
     left: 45vh;
     font-size: 100px;
-    color: #0e3742;
-    animation: animate 1s linear infinite;
+    color: aquamarine;
+    filter: drop-shadow(2px 2px 20px red);
 }
 .skill{
     position: absolute;
     top: 250vh;
     left: 65vh;
     font-size: 30px;
-    color: #16cdff;
-    animation: animate 1s linear infinite;
-}
-
-@keyframes animate
-{
-    0%{
-        color: #0e3742;
-        text-shadow: none;
-    }
-    100%{
-        color: #ffffff;
-        text-shadow: 0 0 10px #fe0000,
-        0 0 20px #fe0000,
-        0 0 40px #fe0000,
-        0 0 80px #fe0000,
-        0 0 160px #fe0000;
-    }
+    color: whitesmoke;
+    filter: drop-shadow(2px 2px 20px red);
 }
 .pscont{
     line-height: 80px;
@@ -213,6 +195,30 @@ nav{
 .ps-cont3{
     margin-left: 30px;
 }
+.hundred{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(6,0,0);
+    margin-bottom: 40px;
+    text-align: end;
+}
+.sixty{
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    background-color: rgb(6,0,0);
+    margin-bottom: 40px;
+    text-align: end;
+}
+.seventy{
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    background-color: rgb(6,0,0);
+    margin-bottom: 40px;
+    text-align: end;
+}
 
 
 
@@ -223,16 +229,15 @@ nav{
     position: absolute;
     top: 328vh;
     left: 45vh;
-    color: #0e3742;
-    animation: animate 1s linear infinite;
+    color: aquamarine;
+    filter: drop-shadow(2px 2px 20px red);
 }
 .contdet{
     position: absolute;
     top: 355vh;
     left: 25vh;
-    color: #0e3742;
-    -webkit-box-reflect: below 1cpx linear-gradient(transparent,#0004);
-    animation: animate 1s linear infinite;
+    color: whitesmoke;
+    filter: drop-shadow(2px 2px 20px red);
     display: flex;
 }
 .whatsapp{
