@@ -140,24 +140,22 @@ nav{
 /* PAGE2 */
 .about{
     position: absolute;
-    top: 135vh;
+    top: 127vh;
     left: 25vh;
     font-size: 100px;
     background-color: transparent;
     backdrop-filter: blur(10px);
     color: #0e3742;
     animation: animate 1s linear infinite;
-    box-shadow: white 2px 2px 15px;
 }
 .all{
     position: absolute;
-    top: 155vh;
-    left: 60vh;
+    top: 145vh;
+    left: 20vh;
     font-size: 30px;
     background-color: transparent;
     color: #0e3742;
     animation: animate 1s linear infinite;
-    box-shadow: white 2px 2px 15px; 
 }
 .Iam1{
     margin-right: 115px;
