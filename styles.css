@@ -169,7 +169,7 @@ nav{
 /* PAGE3 */
 .ps{
     position: absolute;
-    top: 230vh;
+    top: 220vh;
     left: 45vh;
     font-size: 100px;
     color: aquamarine;
@@ -177,7 +177,7 @@ nav{
 }
 .skill{
     position: absolute;
-    top: 250vh;
+    top: 235vh;
     left: 65vh;
     font-size: 30px;
     color: whitesmoke;
