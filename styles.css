@@ -297,9 +297,11 @@ nav{
         font-size: 30px;
     }
     .ps{
-        top: 220%;
+        position: absolute;
+        top: 210%;
         width: 200%;
         left: 60%;
+        
     }
     .skill{
         width: 100%;
