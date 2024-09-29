@@ -276,17 +276,17 @@ nav{
     }
     .img-fluid{
         position:absolute;
-        left: 35%;
+        left: 15%;
         top: 20%;
     }
     .hcon{
         position: absolute;
         top: 100%;
-        left: 50%;
+        left: 25%;
     }
     .all {
         top: 200%;
-        left: 35%;
+        left: 10%;
         width: 100%;
         height: 20%;
         font-size: 20px; 
@@ -294,33 +294,35 @@ nav{
     .about{
         position: absolute;
         top: 150%;
-        left: 50%;
+        left: 20%;
     }
 
     .abt {
         width: 200%;
         height: 20%;
         font-size: 60px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
     .ps{
         position: absolute;
         top: 400%;
-        left: 80%;
+        left: 50%;
         
     }
     .skill{
-        width: 200%;
+        width: 100%;
         top: 440%;
-        left: 30%;
+        left: 60%;
     }
     .button{
         position: absolute;
         top: 90%;
-        left: 130%;
+        left: 92%;
     }
     .contacth{
-        width:200%;
-        left: 25%;
+    
+        left: 50%;
         top: 550%;
     }
     .contdet{
@@ -329,13 +331,32 @@ nav{
         flex-direction: column;
         align-items: flex-start;
     }
-    .whatsapp{
-        width: 150%;
+    .wi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 50%;
     }
-    .gmail{
-        width: 140%;
+    .mi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
     }
-    .linkedin{
-        width: 140%;
+    .li{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .wp{
+        width: 100%;
+        left: 120%;
+    }
+    .gp{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        
     }
 }
